@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="images/icon.png">
+        <title>MCAST | Malta College of Art, Science & Technology</title>
+
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+        <link rel="stylesheet" type="text/css" href="css/style.css"/>
+        <script defer src="js/fontawesome-all.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light sticky-top border-bottom py-3">
+            <a href="index.html" class="navbar-brand">
+                <img src="images/logo2.png" width="256" height="72" alt="Mcast Logo" class=" d-sm-block d-none" />
+                <img src="images/icon.png" width="64" height="72" alt="Mcast Logo" class=" d-sm-none d-block" />
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <div class="nav-containter d-block d-md-flex mr-auto mt-2 mt-lg-0">
+                    <a class="nav-item nav-link my-2" href="study.html">Study</a>
+                    <a class="nav-item nav-link my-2" href="about.html">About Us</a>
+                    <a class="nav-item nav-link my-2" href="services.html">Services</a>
+                    <a class="nav-item nav-link my-2" href="contact.html">Contact</a>
+                </div>
+            </div>
+        </nav>
+        <style>
+            .parallax {
+                /* The image used */
+                background-image: url("images/student.jpg");
+
+                /* Set a specific height */
+                height: 850px;
+
+                /* Create the parallax scrolling effect */
+                background-attachment: fixed;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+        </style>
+
+        <!-- Container element -->
+        <div class="parallax image-fluid d-flex align-items-center">
+            <div class="container-fluid">
+                <!--Black transparent box that appears on top of the picture-->
+                <div class="info-box col-12 col-sm-12 col-md-10 col-lg-6 offset-md-1" style="color: var(--mcast-white)">Welcome to <strong style="color: var(--mcast-green)">MCAST</strong>
+                    <p style="color: var(--mcast-white)">Established in 2001, the Malta College of Arts, Science and Technology (MCAST) is the country's leading vocational education and training institution</p>
+                    <a href="structure.html" class="btn info-button">
+                        Read More
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="card-containter row justify-content-center py-5">
+                <div class="card col-sm-12 col-12 col-lg-3 col-lg-2 pt-3">
+                  <img class="card-img-top" src="images/study-malta.jpg" alt="Studying in Malta">
+                  <div class="card-body">
+                    <h1 class="card-title">Study in Malta</h1>
+                    <p class="card-text">Find out all you need to know about living and studying in Malta</p>
+                    <a href="international.html" class="btn info-button">Read More</a>
+                  </div>
+                </div>
+
+                <div class="card col-sm-12 col-12 col-lg-3 mx-5 pt-3">
+                  <img class="card-img-top" src="images/part-time.jpg" alt="Part-time courses">
+                  <div class="card-body">
+                    <h1 class="card-title">Part-time courses</h1>
+                    <p class="card-text">Discover our new part time courses to help you expand your knowledge</p>
+                    <a href="http://shortcourses.mcast.edu.mt/" target="_blank" class="btn info-button">Read More</a>
+                  </div>
+                </div>
+
+                <div class="card col-12 col-sm-12 col-lg-3 pt-3">
+                  <img class="card-img-top" src="images/prospectus.jpg" alt="Prospectus">
+                  <div class="card-body">
+                    <h1 class="card-title">2017/2018 Prospectus</h1>
+                    <p class="card-text">View and download the prospectus for the next academic year</p>
+                    <a href="http://mcast.edu.mt:8223/rfm/source/Prospectus/Prospectus201718.pdf"  target="_blank" class="btn info-button">Read More</a>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer border-top pt-4 d-block">
+            <div class="footer-links container-fluid">
+                <div class="contactdetails row">
+                    <div class="col-12 col-lg-2 offset-lg-2">
+                        <i class="fas fa-phone"></i>+356 2398 7100
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <i class="fas fa-envelope"></i>information@mcast.edu.mt
+                    </div>
+                    <div class="col-12 col-lg-2">
+                        <i class="fas fa-map-marker"></i>Triq Kordin, Rahal Gdid
+                    </div>
+                </div>
+                <div class="social-media-links d-flex col-sm-6 col-lg-4 offset-lg-4 offset-sm-3">
+                    <a href="https://www.facebook.com/MCASTmt/" target="_blank" class="icon d-block"><i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://twitter.com/mcastmt" target="_blank" class="icon d-block"><i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="https://www.youtube.com/channel/UCpf-MitFkBDSsn552PMC6hw/featured" target="_blank" class="icon d-block"><i class="fab fa-youtube"></i>
+                    </a>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
